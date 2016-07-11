@@ -1,0 +1,260 @@
+/*Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media handheld, screen and (max-width: 1200px) {
+.hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.row {padding: 0 2%;}
+header {
+   background-attachment: scroll;
+   
+    
+}
+  .section-testimonials {
+    background-attachment: scroll;
+}  
+.btn:link, .btn:visited, input[type=submit] {
+    margin-bottom: 5px;
+}
+ .team-header {
+   background-attachment: scroll;
+   
+    
+}   
+    
+    
+}
+
+
+
+
+
+/*small tablet to big tablet: from 768px to 1023px */
+@media handheld, screen and (max-width: 1023px) {
+    
+    
+    
+    body {font-size: 18px;}
+    section: {padding: 60px 0}
+.long-copy {
+    
+    width: 80%;
+    margin-left: 10%;
+    
+}
+    
+
+    
+    .steps-box { margin-top: 10px;}
+    .steps-box:last-child { margin-top: 10px;}
+    .works-steps { margin-bottom: 40px;}
+    .works-step:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city-feature { font-size: 90%}
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%;}
+    
+    .contact-form { width: 80%;}
+    
+    .phone-number {visibility: hidden;}
+    
+    .btn-ghost:link, .btn-ghost:visited {
+        margin-top: 5px;
+}
+    
+    header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-mobile-two.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-mobile-two.jpg);
+        background-attachment: scroll;
+        
+   
+    
+}
+    
+    
+}
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media handheld, screen and (max-width: 768px) {
+    body { font-size: 16px;}
+    section { padding: 30px 0;}
+    
+    .row, hero-text-box { padding: 0 4%:}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+   .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0;}
+    .sticky .mobile-nav-icon { margin-top: 10px;}
+    .sticky .mobile-nav-icon i { color: #555;}
+    
+    h1 {font-size: 180%}
+    h2 {font-size: 150%}
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+   
+    .app-screen {width: 40%;}
+    
+   .steps-box:first-child {
+       text-align: center;
+       
+   }
+    
+    .works-step div {
+    
+    
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 120%;
+}
+    
+    .works-step { margin-bottom: 20px;}
+    .works-step:last-of-type {margin-bottom: 20px;}
+    
+    .box {
+        margin: 5px auto;
+        text-align: center;
+    }
+    
+    .box iframe {
+        width: 290px;
+        
+    }
+    
+    .more-info-row {
+        display: none;
+        
+    }
+    
+    .btn-ghost:link,
+.btn-ghost:visited {
+    margin-top: 10px;
+}
+
+    .btn-ghost:link, .btn-ghost:visited {
+        margin-top: 5px;
+}
+
+    header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-mobile-three.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-mobile-three.jpg);
+        background-attachment: scroll;
+    
+   
+    
+}
+    
+    
+
+
+
+
+@media handheld, screen and (max-width: 641px) {
+    
+    .last-button{margin-top: 10px;}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 481px) {
+    section: {padding: 25px 0;}
+    .contact-form {width: 100%; }
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    margin-top: 10px;
+}
+
+.last-button {
+    margin-left: -55px;
+}
+
+header {
+    background-attachment: scroll;
+    height: inherit;
+}
+
+.team-header {
+    background-attachment: scroll;
+    height: inherit;
+}
+    
+.section-testimonials {
+    /*background-attachment: scroll;*/
+    
+}
+   
+    
+.hero-text-box {
+    visibility: hidden;
+}
+
+.care-appointment {
+    visibility: hidden;
+}
+    
+.section-meals {
+    display: none;
+}
+    
+    #rick-pic {
+        width: 70%;
+        height: auto;
+    }
+    
+    #hidden {
+       visibility: hidden; 
+    }
+    
+    .section-features span {
+        visibility: hidden;
+    }
+    
+   
